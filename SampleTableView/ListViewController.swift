@@ -32,6 +32,25 @@ class ListViewController: UITableViewController{
         return datalist
     }()
     
+    //테이블 뷰의 행의 개수를 리턴
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.list.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //주어진 행에 맞는 데이터 소스를 읽어온다.
+        let row = self.list[indexPath.row]
+        //테이블 셀 객체를 직접 생성하는 대신 큐로부터 가져옴
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell")!
+        cell.textLabel?.text = row.title
+        cell.detailTextLabel?.text = row.description
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        NSLog("선택된 행은 \(indexPath.row)")
+    }
+    
     //테이블 뷰를 구성할 리스트 데이터
     //var list = [MovieVO]()
     
