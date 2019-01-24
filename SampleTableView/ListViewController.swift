@@ -76,6 +76,8 @@ class ListViewController: UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.tableView.estimatedRowHeight = 90
 //        //첫번째 행
 //        var mvo = MovieVO()
 //        mvo.title = "다크나이트"

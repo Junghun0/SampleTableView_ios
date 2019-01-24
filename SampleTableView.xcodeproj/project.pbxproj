@@ -15,6 +15,7 @@
 		3439575F21EE21A400722F16 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439575E21EE21A400722F16 /* ListViewController.swift */; };
 		3439576121EEDC1000722F16 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439576021EEDC1000722F16 /* MovieVO.swift */; };
 		3439576321EF061B00722F16 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439576221EF061B00722F16 /* MovieCell.swift */; };
+		343E30F821F990C800BD9BD7 /* ListViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343E30F721F990C800BD9BD7 /* ListViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3439575E21EE21A400722F16 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		3439576021EEDC1000722F16 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 		3439576221EF061B00722F16 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		343E30F721F990C800BD9BD7 /* ListViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3439575E21EE21A400722F16 /* ListViewController.swift */,
 				3439576021EEDC1000722F16 /* MovieVO.swift */,
 				3439576221EF061B00722F16 /* MovieCell.swift */,
+				343E30F721F990C800BD9BD7 /* ListViewController2.swift */,
 			);
 			path = SampleTableView;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				3439574F21EE216600722F16 /* ViewController.swift in Sources */,
 				3439576121EEDC1000722F16 /* MovieVO.swift in Sources */,
 				3439574D21EE216600722F16 /* AppDelegate.swift in Sources */,
+				343E30F821F990C800BD9BD7 /* ListViewController2.swift in Sources */,
 				3439576321EF061B00722F16 /* MovieCell.swift in Sources */,
 				3439575F21EE21A400722F16 /* ListViewController.swift in Sources */,
 			);
