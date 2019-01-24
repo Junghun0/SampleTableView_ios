@@ -23,7 +23,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ListCell" id="QV3-Ff-hse">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ListCell" id="QV3-Ff-hse" customClass="MovieCell" customModule="SampleTableView" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QV3-Ff-hse" id="57z-nd-1fZ">
@@ -60,6 +60,12 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="desc" destination="2Mn-Je-Lfh" id="wFB-l5-fpb"/>
+                                    <outlet property="opendate" destination="H9F-Ss-mSk" id="Qfd-g6-gOS"/>
+                                    <outlet property="rating" destination="xdf-Mk-OH7" id="Cdp-nD-ymD"/>
+                                    <outlet property="title" destination="SUs-ET-3Fs" id="dlu-s1-UCX"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
